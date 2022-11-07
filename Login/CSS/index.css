@@ -1,5 +1,34 @@
+/*
+* Campos ligado ao body
+*/
+
 body {
+
     background-color: gray;
     overflow: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*
+* Campos ligado ao login
+*/
+
+.parte-login {
+
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.login {
+
+    background-color: black;
+    height: 300px;
+    width: 250px;
+}
+
+.login-form {
+
+    display: flex;
 }
