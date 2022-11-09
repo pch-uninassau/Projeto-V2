@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/login.png);
+}
+
+.login-conteudo {
+    padding: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.login {
+    padding: 60px;
+    z-index: 90;
+    background-color: rgb(0, 0, 0, 0.75);
+    position: relative;
+    box-sizing: border-box;
+    height: 550px;
+    width: 450px;
+    margin-left: 50%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translate(-50%);
+    margin-top: 20px;
+    box-shadow: 10px 10px 6px black;
+}
+
+.login h2 {
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 6px 6px 6px 5px solid black;
+}
+
+.login input {
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 6px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.login input:hover {
+    background-color: #444;
+}
+
+.login-input {
+    margin-bottom: 20px;
+}
+
+.login button {
+    height: 50px;
+    width: 345px;
+    color: black;
+    background-color: rgb(255, 94, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.login button:hover {
+    background-color: rgb(166, 255, 0);
+}
+
+.registrar {
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.senha {
+    margin-top: 15px;
+    color: white;
+    margin-left: 210px;
+}
+
+.senha a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px 5px solid black;
+}
+
+.senha a:hover {
+    color: rgb(255, 251, 0)
+}
+
+.redes-sociais {
+    margin-inline: 95px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.redes-sociais:hover {
+    box-shadow: 10px 10px 10px 5px solid black;
+}
+
+.login-hr {
+    width: 100px;
+    margin-top: 15px;
+    border: 0;
+	border-top: 1px solid white;
+}
+
+.termos-texto {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.termos-link {
+    text-decoration: none;
+    color: aqua;
+}
