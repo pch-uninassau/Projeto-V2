@@ -1,0 +1,180 @@
+@media screen and (min-width: 300px) and (max-width: 720px) {
+
+    body {
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    header {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../Images/background.png);
+        background-repeat: no-repeat;
+    }
+    
+    header h2 {
+        margin: 0px;
+        font-size: 23px;
+        color: white;
+    }
+    
+    header span {
+        color: cyan;
+    }
+    
+    header button {
+        padding: 10px 20px;
+        border: none;
+        border-top-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        width: 150px;
+        height: 40px;
+        background-color: cyan;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        box-shadow: 0px 0px 2px white;
+    }
+    
+    .introducao {
+        padding: 30px 20px 30px 20px;
+    }
+    
+    .conteudo-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .introducao img {
+        width: 280px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px;
+    }
+    
+    .introducao h2 {
+        margin-top: 10px;
+        margin-bottom: 4px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .introducao p {
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .objetivos {
+        padding: 20px;
+        background-image: url(../Images/lagoa.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .objetivo-texto h2 {
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: 0px 0px 10px black;
+    }
+
+    .objetivos-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .container-1, .container-2, .container-3 {
+        padding: 10px;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .container-1 i, .container-2 i, .container-3 i {
+        margin-bottom: 5px;
+        color: rgb(73, 73, 73);
+        font-size: 60px;
+    }
+
+    .container-1 h2, .container-2 h2, .container-3 h2 {
+        font-size: 30px;
+        font-weight: 800;
+        margin: 0;
+        color: rgb(5, 230, 5);
+    }
+
+    .container-1 p, .container-2 p, .container-3 p {
+        font-size: 14px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        color: rgb(56, 56, 56);
+    }
+}
+
+@media screen and (min-width: 375px) {
+
+    header h2 {
+        font-size: 28px;
+    }
+
+    .introducao img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .introducao h2 {
+        font-size: 27px;
+    }
+
+    .objetivos {
+        padding: 20px 30px 20px 30px;
+    }
+
+    .objetivos h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+
+    header h2 {
+        font-size: 30px;
+    }
+
+    header button {
+        width: 180px;
+        height: 40px;
+    }
+
+    .introducao img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .introducao h2 {
+        font-size: 30px;
+    }
+
+    .objetivos {
+        padding: 20px 45px 20px 45px;
+    }
+}
