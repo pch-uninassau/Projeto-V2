@@ -1,0 +1,10 @@
+header button:hover {
+    background-color: rgb(40, 2, 253);
+    color: white;
+    transition: .4s ease;
+    outline: none;
+}
+
+.container-1:hover, .container-2:hover, .container-3:hover {
+    background-color: rgb(221, 221, 221);
+}
