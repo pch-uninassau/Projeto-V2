@@ -1,0 +1,114 @@
+@media (min-width: 1000px) {
+
+    body::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    body::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: rgb(0, 68, 255);
+    }
+
+    header h2 {
+        font-size: 60px;
+    }
+
+    header button {
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .introducao {
+        padding: 30px;
+    }
+
+    .introducao h2 {
+        font-size: 40px;
+    }
+
+    .introducao p {
+        font-size: 20px;
+    }
+
+    .introducao img {
+        width: 470px;
+        height: 300px;
+        margin-left: 50px;
+    }
+
+    .objetivos h2 {
+        font-size: 45px;
+    }
+
+    .objetivos-container p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    header h2 {
+        font-size: 70px; 
+    }
+
+    header button {
+        width: 300px;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .introducao h2 {
+        font-size: 50px;
+    }
+
+    .introducao p {
+        font-size: 27px;
+    }
+
+    .introducao img {
+        width: 550px;
+        height: 350px;
+        margin-left: 50px;
+    }
+
+    .objetivos {
+        padding: 35px;
+    }
+
+    .objetivos-container {
+        margin: 15px;
+    }
+
+    .objetivos h2 {
+        font-size: 55px;
+    }
+
+    .objetivos-container i {
+        font-size: 90px;
+    }
+
+    .objetivos-container h2 {
+        font-size: 65px;
+        font-weight: 800;
+    }
+
+    .objetivos-container p {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 2000px) {
+    body {
+        display: none;
+    }
+}

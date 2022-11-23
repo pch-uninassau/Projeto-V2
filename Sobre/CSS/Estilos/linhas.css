@@ -1,0 +1,98 @@
+@media (min-width: 320px) {
+
+.h2-titulo::after {
+    content: '';
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+    .h2-introdução::after {
+        content: '';
+        height: 3px;
+        width: 20vh;
+        background-color: black;
+        display: block;
+        margin-top: 5px;
+        margin: auto;
+    }
+
+    .h2-objetivos::after {
+        content: '';
+        height: 3px;
+        width: 20vh;
+        background-color: white;
+        display: block;
+        margin-top: 10px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 375px) {
+    
+    .h2-introdução::after {
+        width: 23vh;
+    }
+
+    .h2-objetivos::after {
+        width: 25vh;
+    }
+}
+
+@media (min-width: 425px) {
+    
+    .h2-introdução::after {
+        width: 25vh;
+    }
+
+    .h2-objetivos::after {
+        width: 25vh;
+    }
+}
+
+@media (min-width: 720px) {
+
+    .h2-titulo::after {
+        margin-top: 0px;
+        height: 4px;
+    }
+    
+    .h2-introdução::after {
+        margin: 2px;
+        width: 20vh;
+    }
+
+    .h2-objetivos::after {
+        width: 25vh;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .h2-introdução::after {
+        width: 20vh;
+        height: 4px;
+    }
+
+    .h2-objetivos::after {
+        width: 20vh;
+        height: 4px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .h2-introdução::after {
+        width: 16vh;
+        height: 4px;
+    }
+
+    .h2-objetivos::after {
+        width: 24vh;
+        height: 4px;
+    }
+}
