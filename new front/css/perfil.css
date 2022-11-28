@@ -1,0 +1,133 @@
+.bodyPerfil {
+  background-image: url(/assets/bg-perfil.svg);
+}
+.contain {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  margin-top: 0.75rem;
+}
+
+.conteudoPessoa {
+  background: linear-gradient(180deg, #8abde1 0%, #6b3e90 100%);
+  border-radius: 18px;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #fff;
+  font-weight: bold;
+}
+.imgPerfil {
+  width: 6rem;
+  animation: imagem 3s linear infinite;
+  border-radius: 100%;
+}
+.infoSobre {
+  font-size: 0.9em;
+  width: 80%;
+}
+.sobre,
+.hobbies {
+  font-size: 1.2em;
+}
+.infoSobre,
+.sobre,
+.hobbies,
+ul {
+  padding: 0.4em;
+}
+.conteudoPessoa {
+  padding: 0.6em;
+}
+.ul {
+  list-style-type: disc;
+}
+@keyframes imagem {
+  0% {
+    -webkit-box-shadow: 4px 4px 30px 10px #a513fe;
+  }
+  50% {
+    -webkit-box-shadow: 6px 6px 30px 10px #7b0ad7;
+  }
+  100% {
+    -webkit-box-shadow: 4px 4px 30px 10px #a513fe;
+  }
+}
+.conteudos {
+  overflow-x: scroll;
+  display: flex;
+  width: 95vw;
+  column-gap: 10px;
+}
+::-webkit-scrollbar {
+  background: #9b4fba;
+  height: 5px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #00cb51;
+  width: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.seta {
+  font-size: 2em;
+  animation: brilho 2.5s ease-in-out infinite;
+}
+@keyframes brilho {
+  0% {
+    color: #fff;
+  }
+  10%,
+  90% {
+    color: var(--colorBack);
+    text-shadow: none;
+  }
+}
+:root {
+  --colorBack: #040305;
+  --colorPurple: #9800ce;
+  --colorGrey: rgb(87, 87, 87);
+}
+.seta:nth-child(2) {
+  animation-delay: 0.25s;
+}
+.seta:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.seta:nth-child(4) {
+  animation-delay: 0.75s;
+}
+.seta:nth-child(5) {
+  animation-delay: 1s;
+}
+.seta:nth-child(6) {
+  animation-delay: 1.25s;
+}
+.seta:nth-child(7) {
+  animation-delay: 1.5s;
+}
+.seta:nth-child(8) {
+  animation-delay: 1.75s;
+}
+.seta:nth-child(9) {
+  animation-delay: 2s;
+}
+.seta:nth-child(10) {
+  animation-delay: 2.25s;
+}
+@media screen and (min-width: 860px) {
+  .conteudoPessoa {
+    width: 35vw;
+    height: 30rem;
+  }
+}

@@ -1,0 +1,25 @@
+.paragrafo {
+  font-size: 0.85rem;
+  width: 90%;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+}
+.readNext {
+  width: 90%;
+}
+@media screen and (min-width: 588px) {
+  body {
+    background-image: url(/assets/bgNoticiaDesktop.svg) !important;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .paragrafo {
+    width: 70%;
+    font-size: 1.3rem;
+  }
+  .titulo-noticia {
+    font-size: 1.4rem;
+    padding-bottom: 5px;
+  }
+}

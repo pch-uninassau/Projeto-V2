@@ -1,0 +1,36 @@
+.menu-lateral {
+  width: 12rem;
+  height: 100vh;
+  background-color: #9a42bd;
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+  left: -100vw;
+  transition: 0.5s;
+  z-index: 2;
+}
+.menu-lateral-ativo {
+  left: 0;
+  transition: 0.5s;
+}
+.fechar {
+  align-self: flex-end;
+  padding: 4px;
+  font-size: 1.5rem;
+  width: min-content;
+}
+.opcao {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+.imagem__opcao {
+  margin-left: 4px;
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: #d9d9d9;
+  padding: 8px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

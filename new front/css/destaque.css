@@ -1,0 +1,35 @@
+strong {
+  color: #00cb51;
+}
+.conteudosDestaque {
+  margin-left: 5px;
+  padding-bottom: 0.5rem;
+}
+::-webkit-scrollbar {
+  background: #9b4fba;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #00cb51;
+
+  margin-left: 20px;
+}
+.noticiasDestaque {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+.tituloDestaque {
+  text-align: center;
+  padding: 0.3rem;
+  font-weight: bold;
+}
+@media screen and (min-width: 786px) {
+  .tituloDestaque {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width:1036px) {
+  .noticiasDestaque{
+    justify-content: space-around;
+  }
+}

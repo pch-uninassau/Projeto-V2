@@ -1,0 +1,14 @@
+.maisConteudosDesktop .mais__conteudoP {
+  font-size: 1rem;
+  align-self: start;
+}
+.maisConteudosDesktop {
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.img_desktop {
+  border-radius: 5px;
+}
+.noticia1 .informacoes {
+  width: 25vw;
+}
